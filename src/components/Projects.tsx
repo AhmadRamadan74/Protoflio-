@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
       icon: 'MT',
       description: 'Efficient file searching tool utilizing multi-threading to improve performance.',
       technologies: ['Python', 'GUI Framework(Tkinter)', 'Multithreading'],
-      github: 'https://github.com/AhmadRamadan74/MultiThreadedFileSearcher',
+      github: 'https://github.com/AhmadRamadan74/MultiThreaded-File-Searcher',
       color: 'blue-border'
     },
     {
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
       icon: 'W',
       description: 'Social media platform allowing users to create and manage posts with comments.',
       technologies: ['Java', 'Spring Boot', 'Spring Data JPA', 'RESTful APIs'],
-      github: 'https://github.com/AhmadRamadan74/Whistle',
+      github: 'https://github.com/AhmadRamadan74/Whistle-SocialMediaWebsite',
       color: 'purple-border'
     },
     {
