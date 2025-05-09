@@ -1,0 +1,63 @@
+.competitive-section {
+  padding: 6rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.profile-card {
+  background: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  border: 1px solid rgba(56, 189, 248, 0.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(56, 189, 248, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #38bdf8;
+  margin: 0;
+}
+
+.profile-card .username {
+  color: #94a3b8;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.profile-card .stats {
+  color: #e2e8f0;
+  font-size: 0.875rem;
+  margin: 0;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(56, 189, 248, 0.1);
+}
+
+@media (max-width: 768px) {
+  .competitive-section {
+    padding: 4rem 1rem;
+  }
+  
+  .profiles-grid {
+    grid-template-columns: 1fr;
+  }
+}
